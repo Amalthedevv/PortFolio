@@ -13,9 +13,13 @@ body {
     /* background: none; */
     height:2000px;
 }
-
+.navigation a:hover {
+    
+    color:  #43a09d;
+    border: 3px solid #43a09d;
+}
 .navigation {
-    /* float: right; */
+    /* float: right; */ 
     margin-top: 30px;
     margin-right: 50px;
     margin-left: 20%;
@@ -30,6 +34,7 @@ body {
     padding: 10px;
     margin: 5px;
 }
+
 
 .Hello {
     color:maroon;
@@ -57,8 +62,23 @@ body {
     margin-top: 40px;
     margin-left: 60%;
     margin-right: 10px;
+    
    
 
+}
+
+.icon a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: maroon;
+    font-size: 20px;
+    text-decoration: none;
+    border: 3px solid maroon;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 95%;
+    
+    
+   
 }
 .submit {
     background-color: maroon;
