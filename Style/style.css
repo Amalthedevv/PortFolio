@@ -1,0 +1,162 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-image: url("../Image/1668949.jpg");
+    background-size: cover;
+    /* background: none; */
+    height:2000px;
+}
+
+.navigation {
+    /* float: right; */
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 20%;
+}
+.navigation a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: maroon;
+    font-size: 30px;
+    text-decoration: none;
+    border: 3px solid maroon;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.Hello {
+    color:maroon;
+    border: 2px solid maroon;
+    font-family:'Handlee', cursive;
+    margin-top: 50px;
+    border-radius: 50px;
+    text-align: center;
+    
+
+}
+.Headline {
+    color:maroon;
+    font-size: 50px;
+    font-family:'Handlee', cursive;
+    margin-top: 20px;
+   
+    margin-left: 60%;
+
+}
+.Content{
+    color:maroon;
+    font-size: 20px;
+    font-family:'Handlee', cursive;
+    margin-top: 40px;
+    margin-left: 60%;
+    margin-right: 10px;
+   
+
+}
+.submit {
+    background-color: maroon;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+
+form {
+    /* text-align: center; */
+    margin-left: 5%;
+
+    margin-top: 0;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.contacts {
+    font-size: 20px;
+    color:maroon;
+    width: 700px;
+    margin-left: 35%;
+    
+
+}
+.ContactMe{
+    font-size: 20px;
+    color:maroon;
+    margin-left: 30%;
+    width: 700px;
+}
+.section {
+    font-size: 20px;
+    color:maroon;
+    width: 700px;
+    margin-left: 30%;
+    margin-top: 30px;
+    
+
+}
+label{
+    font-family:'Handlee', cursive;
+    margin-left: 5px;
+}
+
+.copyright{
+    color: maroon;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: right;
+
+
+
+    
+}
+
+.ContactMe{
+    color:maroon;
+    font-size: 50px;
+    font-family:'Handlee', cursive;
+    margin-top: 20px;
+    text-align: center;
+}
+#contacts img {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+footer{
+    height:20px;
+    margin-bottom: 20px;
+}
